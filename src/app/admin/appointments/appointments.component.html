@@ -1,0 +1,40 @@
+<section class="appiontments">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Müşteri Adı
+                </th>
+                <th>
+                    Müşteri Telefonu
+                </th>
+                <th>
+                    Müşteri Maili
+                </th>
+                <th>
+                    Araç Marka/Model
+                </th>
+                <th>
+                    Araç Plaka
+                </th>
+                <th>
+                    Randevu Zamanı
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+        <tbody  *ngFor="let item of appointment">
+            <tr *ngIf = "!item.apporvedAppiontment">
+                <td>{{item.user.name}} {{item.user.surname}} </td>
+                <td>{{item.user.gsm}}</td>
+                <td>{{item.user.mail}}</td>
+                <td> {{item.vehicle.modelYear}} {{item.vehicle.brand}} {{item.vehicle.carModel}} </td>
+                <td>{{item.vehicle.plate}}</td>
+                <td>{{item.appiontmentsInfo.appiontmentsDate}} {{item.appiontmentsInfo.appiontmentsTime}}</td>
+                <td> <button (click) = "changeAppointmentStatus(item.id)">ONAYLA</button> </td>
+            </tr>
+        </tbody>
+    </table>
+</section>

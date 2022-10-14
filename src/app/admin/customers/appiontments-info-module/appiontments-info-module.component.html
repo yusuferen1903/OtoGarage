@@ -1,0 +1,35 @@
+<div class="date-range">
+    <div>
+   <div>
+       <label for="type">Randevu Tarihi</label>
+       <div class="row">
+           <div class="col-sm-10">
+               <input type="date" [(ngModel)]="appiontmentsDate" >
+           </div>
+
+       </div>
+   </div>
+</div>
+
+<div>
+   <div>
+       <label for="type">Randevu Saati</label>
+       <div class="row">
+           <div class="col-sm-10">
+            <input type="time"  [(ngModel)]="appiontmentsTime">
+           </div>
+
+       </div>
+   </div>
+</div>
+</div>
+
+<div class="create">    
+   <button (click)="cancel()">
+       VAZGEÇ
+   </button>
+   <button (click)= "submit()">
+       KAYDET
+   </button>
+
+</div>

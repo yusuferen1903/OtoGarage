@@ -1,0 +1,356 @@
+{
+  "customer": [
+    {
+      "name": "Yusuf Eren",
+      "surname": "Üneyler",
+      "mail": "yusuferenuneyler@gmail.com",
+      "gsm": "13414234323",
+      "id": 1
+    },
+    {
+      "name": "asdasdasd",
+      "surname": "asdasdasd",
+      "mail": "eren@gmail.com",
+      "gsm": "545856845",
+      "id": 2
+    },
+    {
+      "name": "asdasdas",
+      "surname": "asdasfas",
+      "mail": "yusuferenuneyler@mail.com",
+      "gsm": "56454855754",
+      "id": 3
+    },
+    {
+      "name": "asdasdasd",
+      "surname": "asdasdasd",
+      "mail": "eren.uneyler@gmail.com",
+      "gsm": "5455645456",
+      "id": 4
+    }
+  ],
+  "vehicle": [
+    {
+      "plate": "34 ERN 34",
+      "brand": "FORD",
+      "carModel": "MUSTANG",
+      "modelYear": "1969",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "plate": "06 BJK 06",
+      "brand": "FIAT",
+      "carModel": "TOFAŞ",
+      "modelYear": "1998",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "plate": "06 ern 34",
+      "brand": "asdasdasd",
+      "carModel": "asdasdasd",
+      "modelYear": "1312",
+      "userId": 4,
+      "id": 3
+    }
+  ],
+  "appointment": [
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-14",
+        "appiontmentsTime": "19:42"
+      },
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "id": 1,
+      "apporvedAppiontment": true
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-22",
+        "appiontmentsTime": "18:41"
+      },
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "id": 2,
+      "apporvedAppiontment": true
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-30",
+        "appiontmentsTime": "19:43"
+      },
+      "user": {
+        "name": "ernn",
+        "surname": "asdasdasd",
+        "mail": "birsi@gmail.com",
+        "gsm": "54584645645",
+        "id": 2
+      },
+      "vehicle": {
+        "plate": "06 BJK 06",
+        "brand": "FIAT",
+        "carModel": "TOFAŞ",
+        "modelYear": "1998",
+        "userId": 2,
+        "id": 2
+      },
+      "id": 3,
+      "apporvedAppiontment": true
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-16",
+        "appiontmentsTime": "19:58"
+      },
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "apporvedAppiontment": true,
+      "id": 4
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "",
+        "appiontmentsTime": ""
+      },
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "apporvedAppiontment": true,
+      "id": 5
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-06",
+        "appiontmentsTime": "21:24"
+      },
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "apporvedAppiontment": true,
+      "id": 6
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "",
+        "appiontmentsTime": ""
+      },
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "apporvedAppiontment": true,
+      "id": 7
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "",
+        "appiontmentsTime": ""
+      },
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "apporvedAppiontment": true,
+      "id": 8
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-14",
+        "appiontmentsTime": "22:44"
+      },
+      "user": {
+        "name": "asdasdasd",
+        "surname": "asdasdasd",
+        "mail": "rnek@hotmail.com",
+        "gsm": "4344543234",
+        "id": 2
+      },
+      "vehicle": {
+        "plate": "06 BJK 06",
+        "brand": "FIAT",
+        "carModel": "TOFAŞ",
+        "modelYear": "1998",
+        "userId": 2,
+        "id": 2
+      },
+      "apporvedAppiontment": false,
+      "id": 9
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-14",
+        "appiontmentsTime": "02:13"
+      },
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "apporvedAppiontment": true,
+      "id": 10
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-14",
+        "appiontmentsTime": "01:13"
+      },
+      "user": {
+        "name": "asdasdasd",
+        "surname": "asdasdasd",
+        "mail": "eren@gmail.com",
+        "gsm": "545856845",
+        "id": 2
+      },
+      "vehicle": {
+        "plate": "06 BJK 06",
+        "brand": "FIAT",
+        "carModel": "TOFAŞ",
+        "modelYear": "1998",
+        "userId": 2,
+        "id": 2
+      },
+      "apporvedAppiontment": false,
+      "id": 11
+    },
+    {
+      "appiontmentsInfo": {
+        "appiontmentsDate": "2022-10-14",
+        "appiontmentsTime": "23:10"
+      },
+      "user": {
+        "name": "asdasdasd",
+        "surname": "asdasdasd",
+        "mail": "eren.uneyler@gmail.com",
+        "gsm": "5455645456",
+        "id": 4
+      },
+      "vehicle": {
+        "plate": "06 ern 34",
+        "brand": "asdasdasd",
+        "carModel": "asdasdasd",
+        "modelYear": "1312",
+        "userId": 4,
+        "id": 3
+      },
+      "apporvedAppiontment": false,
+      "id": 12
+    }
+  ],
+  "workOrder": [
+    {
+      "user": {
+        "name": "Yusuf Eren",
+        "surname": "Üneyler",
+        "mail": "yusuferenuneyler@gmail.com",
+        "gsm": "13414234323",
+        "id": 1
+      },
+      "vehicle": {
+        "plate": "34 ERN 34",
+        "brand": "FORD",
+        "carModel": "MUSTANG",
+        "modelYear": "1969",
+        "userId": 1,
+        "id": 1
+      },
+      "id": 1
+    }
+  ]
+}

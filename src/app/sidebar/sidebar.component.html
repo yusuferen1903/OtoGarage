@@ -1,0 +1,90 @@
+<div class="sidebar">
+  <div class="sidebar-header">
+    <mat-icon>close</mat-icon>
+  </div>
+
+
+  <div class="user">
+    <img [src]="uri" />
+    <div class="name">YUSUF EREN ÜNEYLER</div>
+    <div class="mail">yusuferenuneyler@gmail.com</div>
+    <!-- <div class="date">{{ profile.registrationDate }}</div> -->
+  </div>
+  <nav>
+    <a routerLink="/anasayfa" routerLinkActive="active">
+      <mat-icon>home</mat-icon>
+      Anasayfa
+    </a>
+    <a (click)="toggleMenuItem('customer')">
+      <mat-icon>people</mat-icon>
+      Müşteriler
+      <mat-icon class="right">keyboard_arrow_down</mat-icon>
+    </a>
+    <a *ngIf="customer" class="inner" routerLink="/musteriler" routerLinkActive="active" [@fadeInOut]>
+      Müşterileri Listele
+    </a>
+    <a *ngIf="customer"  class="inner" routerLink="/musteri-ekle" routerLinkActive="active" [@fadeInOut]>
+      Müşteri Ekle
+    </a>
+    <a (click)="toggleMenuItem('vehicles')">
+      <mat-icon>directions_cars</mat-icon>
+      Araçlar
+      <mat-icon class="right">keyboard_arrow_down</mat-icon>
+    </a>
+    <a *ngIf="vehicles" class="inner" routerLink="/araclar" routerLinkActive="active" [@fadeInOut]>
+      Araçları Listele
+    </a>
+    <a *ngIf="vehicles"  class="inner" routerLink="/arac-ekle" routerLinkActive="active" [@fadeInOut]>
+      Araç Ekle
+    </a>
+    <a (click)="toggleMenuItem('appointments')">
+      <mat-icon>calendar_today</mat-icon>
+      Randevularım
+      <mat-icon class="right">keyboard_arrow_down</mat-icon>
+    </a>
+    <a *ngIf="appointments" class="inner" routerLink="/randevular" routerLinkActive="active" [@fadeInOut]>
+      Randevuları Listele
+    </a>
+    <a *ngIf="appointments"  class="inner" routerLink="/musteriler" routerLinkActive="active" [@fadeInOut]>
+      Randevu Ekle
+    </a>
+    <a (click)="toggleMenuItem('workOrder')">
+      <mat-icon>work</mat-icon>
+      İş Emirlerim
+      <mat-icon class="right">keyboard_arrow_down</mat-icon>
+    </a>
+    <a *ngIf="workOrder" class="inner" routerLink="/is-emirleri" routerLinkActive="active" [@fadeInOut]>
+      İş Emirlerini Listele
+    </a>
+    <a *ngIf="workOrder"  class="inner" routerLink="/musteriler" routerLinkActive="active" [@fadeInOut]>
+      İş Emri Oluştur
+    </a>
+    <!-- <a>
+      <mat-icon svgIcon="mulk"></mat-icon>
+      Mülklerim
+      <mat-icon class="right">keyboard_arrow_down</mat-icon>
+    </a>
+    <a [@fadeInOut]>
+      Mülk Ekle
+    </a>
+    <a [@fadeInOut]>
+      Mülk Listele
+    </a>
+    <a>
+      <mat-icon svgIcon="kontrat"></mat-icon>
+      Kontratlarım
+      <mat-icon class="right">keyboard_arrow_down</mat-icon>
+    </a>
+    <a  [@fadeInOut]>
+      Kontrat Ekle
+    </a>
+    <a [@fadeInOut]>
+      Kontrat Listele
+    </a> -->
+    <a>
+      <mat-icon>exit_to_app</mat-icon>
+      Çıkış
+    </a>
+  </nav>
+</div>
+<div class="m-back"></div>

@@ -1,0 +1,28 @@
+<section class="appiontments">
+  <table class="table">
+      <thead>
+          <tr>
+              <th>
+                Araç Markası
+              </th>
+              <th>
+                 Araç Modeli
+              </th>
+              <th>
+                Araç Yılı
+              </th>
+              <th>
+                  Araç Plakası
+              </th>
+          </tr>
+      </thead>
+      <tbody  *ngFor="let item of vehicles">
+          <tr>
+              <td>{{item.brand}} </td>
+              <td>{{item.carModel}}</td>
+              <td>{{item.modelYear}}</td>
+              <td> {{item.plate}} </td>
+          </tr>
+      </tbody>
+  </table>
+</section>

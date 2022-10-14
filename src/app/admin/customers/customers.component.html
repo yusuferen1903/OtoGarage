@@ -1,0 +1,61 @@
+<div class="tbl">
+    <div class="flex header">
+      <span class="flex-3">Müşteri</span>
+      <span class="flex-2 ">Müşteri Mail</span>
+      <span class="flex-2 ">Müşteri Telefon</span>
+      <!-- <span class="flex-4 flex ml-left30"> Araç Sayısı
+      </span> -->
+    </div>
+    <mat-accordion>
+      <mat-expansion-panel *ngFor="let item of users"
+      (click) = "getCustomerVehicles(item.id)"
+                           >
+        <mat-expansion-panel-header>
+          <div class="flex row">
+            <span class="flex-3">{{item.name}} {{item.surname}}</span>
+            <span class="flex-2">{{item.mail}}</span>
+            <span class="flex-2 ml-left90">{{item.gsm}}</span>
+            <!-- <span class="flex-4">
+            3
+            </span> -->
+            <!-- <input
+            type="submit"
+            value="Aksiyonlar"
+            class="action-button flex-1>"
+          /> -->
+          <mat-icon class="row-arrow">keyboard_arrow_right</mat-icon>
+          </div>
+        </mat-expansion-panel-header>
+        <div>
+          <section class="arabalar">
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+            <table>
+              <thead>
+                <tr>
+                  <th>Marka</th>
+                  <th>Model</th>
+                  <th>Model Yılı</th>
+                  <th>Plaka</th>
+                  <th>Randevu</th>
+                  <th>İş Emri</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let vehicles of userVehicles">
+                  <td>{{vehicles.brand}}</td>
+                  <td>{{vehicles.carModel}}</td>
+                  <td class="m-td">{{vehicles.modelYear}}</td>
+                  <td class="m-td">{{vehicles.plate}}</td>
+                  <td class="createAppointment"> <a  (click)="createAppointment(item , vehicles)">OLUŞTUR</a> </td>
+                  <td class="m-td createAppointment">
+                    <a (click)="createWorkOrder(item , vehicles)">OLUŞTUR</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </div> 
+          </section>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>

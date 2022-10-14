@@ -1,0 +1,26 @@
+.appiontments{
+  padding: 30px;
+  .table {
+    width: 100%;
+    border: 1px solid #8e8e8e;
+    border-collapse: collapse;
+    thead {
+      th {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-right: 1px solid #8e8e8e;
+      }
+    }
+    tbody {
+      tr {
+        td {
+          text-align: center;
+          border-top: 1px solid #8e8e8e;
+          border-right: 1px solid #8e8e8e;
+          padding: 10px;
+        }
+      }
+
+    }
+  }
+}

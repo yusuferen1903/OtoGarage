@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+    width: 100%;
+    background-color: #f5f5f5;
+    min-height: 100%;
+  }
+  .flex-column {
+        flex-direction: column;
+  }
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 986px) {
+    .flex {
+      width: 100%;
+    }
+  }
+  

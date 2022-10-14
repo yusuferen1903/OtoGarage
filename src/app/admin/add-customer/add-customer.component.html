@@ -1,0 +1,46 @@
+<div class="border">
+    <form [formGroup]="customerForm" (ngSubmit)="onFormSubmit()">
+        <div class="title">Müşteri Bilgileri</div>
+        <div class="customer">
+          <div class="double">
+            <div>
+              <div class="input-item">
+                <div class="label mr-3">Müşteri Adı
+                  <input type="text" placeholder="Ahmet" formControlName="name">
+                  <!-- <span class="error" *ngIf="name.invalid && (name.dirty || name.touched)">
+                    Müşteri adı girilmesi zorunludur
+                  </span> -->
+                </div>
+                <div class="label">Müşteri Soyadı
+                  <input type="text" placeholder="Yurtseven" formControlName="surname">
+                  <!-- <span class="error" *ngIf="surname.invalid && (surname.dirty || surname.touched)">
+                    Müşteri soyadı girilmesi zorunludur
+                  </span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="input-item">
+            <div class="label mr-3">Müşteri Maili
+              <input type="mail" placeholder="ornek@gmail.com" formControlName="mail">
+              <!-- <span class="error" *ngIf="mail.invalid && (mail.dirty || mail.touched)">
+                Müşteri mail girilmesi zorunludur
+              </span> -->
+            </div>
+            <div class="label">Müşteri Telefonu
+              <input onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" type="text" maxlength="11" placeholder="(555) 555-55 55" formControlName="gsm"
+              >
+              <!-- <span class="error" *ngIf="gsm.invalid && (gsm.dirty || gsm.touched)">
+                Müşteri telefonu girilmesi zorunludur
+              </span> -->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="approve">
+            <button class="send kaydet" type="submit" matRipple>Ekle</button>
+        </div>
+    </form>
+</div>
